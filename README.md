@@ -2,8 +2,7 @@
 ### Evaluate expressions with binary numbers
 
 This is a command line tool written in Rust that allows you to do math with binary numbers.  
-  
-For example 
+
 ```
 ./bin-calculator
 Enter your expression: (101 + 11) * 10
@@ -13,7 +12,8 @@ Enter your expression: (101 + 11) * 10
   
   
 You can also provide the expression through the command line arguments, but you will need to escape special characters.   
-For example in bash
+  
+Example in bash:
 ```
 ./bin-calculator \(101 + 11\) \* 10
 10000
